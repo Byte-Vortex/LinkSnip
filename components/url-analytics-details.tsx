@@ -91,13 +91,13 @@ export function UrlAnalyticsDetails({ clickData, isLoading }: UrlAnalyticsDetail
                 </TableCell>
                 <TableCell>{click.browser || "Unknown"}</TableCell>
                 <TableCell>{click.os || "Unknown"}</TableCell>
-                <TableCell className="hidden md:table-cell">
+                <TableCell>
                   {click.city && click.country
                     ? `${click.city}, ${click.country}`
                     : "Unknown"}
                 </TableCell>
                 <TableCell>{click.region}</TableCell>
-                <TableCell className="hidden lg:table-cell truncate max-w-[200px]">
+                <TableCell className="truncate max-w-[200px]">
                   {click.referrer || "Direct"}
                 </TableCell>
                 <TableCell>{click.ip_address}</TableCell>
