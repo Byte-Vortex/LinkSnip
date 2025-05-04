@@ -68,14 +68,21 @@ export function UrlAnalyticsDetails({ clickData, isLoading }: UrlAnalyticsDetail
               <TableHead>Device</TableHead>
               <TableHead>Browser</TableHead>
               <TableHead>OS</TableHead>
-              <TableHead className="hidden md:table-cell">Location</TableHead>
-              <TableHead className="hidden lg:table-cell">Referrer</TableHead>
+              <TableHead>Location</TableHead>
+              <TableHead>Region</TableHead>
+              <TableHead>Referrer</TableHead>
+              <TableHead>IP</TableHead>
+              <TableHead>Latitude</TableHead>
+              <TableHead>Longitude</TableHead>
+              <TableHead>Language</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             {filteredData.map((click) => (
               <TableRow key={click.id}>
-                <TableCell>{new Date(click.created_at).toLocaleString()}</TableCell>
+                <TableCell>
+                  {new Date(click.created_at).toLocaleString()}
+                </TableCell>
                 <TableCell>
                   <div className="flex items-center gap-2">
                     {getDeviceIcon(click.device_type)}
@@ -85,16 +92,23 @@ export function UrlAnalyticsDetails({ clickData, isLoading }: UrlAnalyticsDetail
                 <TableCell>{click.browser || "Unknown"}</TableCell>
                 <TableCell>{click.os || "Unknown"}</TableCell>
                 <TableCell className="hidden md:table-cell">
-                  {click.city && click.country ? `${click.city}, ${click.country}` : "Unknown"}
+                  {click.city && click.country
+                    ? `${click.city}, ${click.country}`
+                    : "Unknown"}
                 </TableCell>
+                <TableCell>{click.region}</TableCell>
                 <TableCell className="hidden lg:table-cell truncate max-w-[200px]">
                   {click.referrer || "Direct"}
                 </TableCell>
+                <TableCell>{click.ip_address}</TableCell>
+                <TableCell>{click.latitude}</TableCell>
+                <TableCell>{click.longitude}</TableCell>
+                <TableCell>{click.language}</TableCell>
               </TableRow>
             ))}
           </TableBody>
         </Table>
       </div>
     </div>
-  )
+  );
 }
