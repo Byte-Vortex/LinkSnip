@@ -1,0 +1,136 @@
+# LinkSnip   
+LinkSnip is a modern URL shortening service that allows users to create, share, and track shortened links with ease. It offers features like custom slugs, QR code generation, and detailed analytics to monitor link performance.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-live-success) ![Made With](https://img.shields.io/badge/made%20with-Next.js-blue?logo=next.js)
+
+#### [View Website ](https://linksnip.bytevortex.in)
+
+## Table of Contents
+
+- [Features](#features)
+- [ScreenShots](#screenshots)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+---
+
+## Features
+
+- **Shorten URLs** — Easily generate short links from long URLs
+- **Custom Slugs** — Create branded or user-friendly slugs
+- **Analytics** — View link click stats, device info, referrers, and geolocation
+- **QR Code Generator** — Instantly generate QR codes for any link
+- **Authentication** — Login system for managing user links
+- **Admin Dashboard** — Manage users and system stats
+- **Fast & Responsive** — Built with Next.js for blazing performance
+
+----
+
+## Screenshots
+
+
+---
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- pnpm (Preferred Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/linksnip.git
+    ```
+
+2. Navigate to the project directory:
+    ```sh
+    cd Streamify
+    ```
+
+3. Install the dependencies:
+    ```sh
+    pnpm install
+    ```
+
+---
+
+## Usage
+
+To start the development server, run:
+```sh
+pnpm run dev
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the root directory of your project and add the following environment variables:
+
+```env
+SUPABASE_URL=https://<your-supabase-project>.supabase.co
+NEXT_PUBLIC_SUPABASE_URL=https://<your-supabase-project>.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<your-public-anon-key>
+SUPABASE_JWT_SECRET=<your-jwt-secret>
+SUPABASE_SERVICE_ROLE_KEY=<your-service-role-key>
+POSTGRES_URL=postgres://<user>:<password>@<host>:6543/postgres?sslmode=require
+POSTGRES_PRISMA_URL=postgres://<user>:<password>@<host>:6543/postgres?sslmode=require
+POSTGRES_URL_NON_POOLING=postgres://<user>:<password>@<host>:5432/postgres?sslmode=require
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=<your-database-password>
+POSTGRES_DATABASE=postgres
+POSTGRES_HOST=<your-db-host>
+```
+
+Replace `your_api_key_here` with your actual API keys.
+
+---
+
+## Deployment
+
+This project is hosted on Vercel. You can visit the live application at [https://linksnip.bytevortex.in](https://linksnip.bytevortex.in).
+
+---
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project.
+2. Create your Feature Branch:
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes:
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the Branch:
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request.
+
+---
+
+## Contact
+
+**Byte-Vortex**  
+GitHub: [@ByteVortex](https://github.com/Byte-Vortex)  
+Email: akshatanwar24@gmail.com 
+
+Project Link: [https://github.com/Byte-Vortex/Streamify](https://github.com/Byte-Vortex/LinkSnip)
+
