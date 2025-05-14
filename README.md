@@ -32,21 +32,22 @@ LinkSnip is a modern URL shortening service that allows users to create, share, 
 
 ## Screenshots
 
+
 ![image](https://github.com/user-attachments/assets/13640224-6885-4f60-a6ae-d0b50fd8b6d6)
 ----
+### User Dashboard Panel
 ![Screenshot 2025-05-14 131329](https://github.com/user-attachments/assets/fb013ae3-41f1-4033-a452-838e2b26858b)
-----
-![image](https://github.com/user-attachments/assets/7cde1a06-1b03-46a2-ac8e-2aea9a8e0ac0)
 ----
 ![image](https://github.com/user-attachments/assets/c1e8345c-8c66-495f-8f44-6a4d56107d03)
 ----
 ![image](https://github.com/user-attachments/assets/5ecbbda9-748a-4df6-b07b-8dfef95546e2)
 ----
+![image](https://github.com/user-attachments/assets/939e1e41-4c3a-4126-aec0-73fde8321f88)
+----
 ### Admin Panel
 ![image](https://github.com/user-attachments/assets/63042b4c-f19f-4cd7-b838-b4d0664cb2a5)
 ---
 ![image](https://github.com/user-attachments/assets/952be809-cdba-4e5e-a637-2208a4f4f925)
-
 ---
 
 ## Getting Started
