@@ -1,8 +1,6 @@
 # LinkSnip   
 LinkSnip is a modern URL shortening service that allows users to create, share, and track shortened links with ease. It offers features like custom slugs, QR code generation, and detailed analytics to monitor link performance.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-live-success) ![Made With](https://img.shields.io/badge/made%20with-Next.js-blue?logo=next.js)
-
 #### [View Website ](https://linksnip.bytevortex.in)
 
 ## Table of Contents
