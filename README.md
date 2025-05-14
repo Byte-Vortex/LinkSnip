@@ -34,6 +34,8 @@ LinkSnip is a modern URL shortening service that allows users to create, share, 
 
 ![image](https://github.com/user-attachments/assets/13640224-6885-4f60-a6ae-d0b50fd8b6d6)
 ----
+![Screenshot 2025-05-14 130957](https://github.com/user-attachments/assets/d4f4ead9-800c-457f-b7df-488f6c825046)
+----
 ![image](https://github.com/user-attachments/assets/7cde1a06-1b03-46a2-ac8e-2aea9a8e0ac0)
 ----
 ![image](https://github.com/user-attachments/assets/c1e8345c-8c66-495f-8f44-6a4d56107d03)
