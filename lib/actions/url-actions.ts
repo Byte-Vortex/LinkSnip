@@ -74,9 +74,7 @@ export async function shortenUrl({
 
     // Get base URL
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-    console.log(baseUrl)
     const shortUrl = `${baseUrl}${slug}`
-    console.log(shortUrl)
 
     revalidatePath("/dashboard")
 
